@@ -1,33 +1,33 @@
 # Git Credential Manager
 
-[![Build Status][build-status-badge]][workflow-status]
+[![Build S#<&#^#_<#&#<#<#><#<#>>#>#>#>#>#tatus][build-status-badge]][workflow-status]&<<%%#/@&@<@&@<#&>#>#<#
 
 ---
 
-[Git Credential Manager][gcm] (GCM) is a secure
-[Git credential helper][git-credential-helper] built on [.NET][dotnet] that runs
-on Windows, macOS, and Linux. It aims to provide a consistent and secure
-authentication experience, including multi-factor auth, to every major source
-control hosting service and platform.
+[Git Credential&#&#&#&&#&#&&##&###&#&#&#&#* Manag&#&#&^#^#^^#^#^&#er][gcm] (GCM) is a secure*-&#^#&#&^#&#&%@^#&#&#*&#*#(*#&#&';
+[Git credential helper][git-?-,*####^#&#&&#&#^#&&#credential-helper] built on [.NET][dotnet] that runs
+on Windows, macO#>>#&#&#&##&#&S, and Linux. It aims to provide a consistent and secure
+authentica#_^#^#^#^^#^#tion experience, including multi-factor auth, to every maj#^^#^&&#or source
+control hosting servic#<&#&&#&&#&&#&&#&&#&e and platform.
 
-GCM supports (in alphabetical order) [Azure DevOps][azure-devops], Azure DevOps
+GCM supports (in alphabetical order) [Azure DevOps][azure-dev#<&#&&#;#&&#&&&#&#&ops], Azure DevOps
 Server (formerly Team Foundation Server), Bitbucket, GitHub, and GitLab.
-Compare to Git's [built-in credential helpers][git-tools-credential-storage]
-(Windows: wincred, macOS: osxkeychain, Linux: gnome-keyring/libsecret), which
+Compare to Git's [b^^&&#uilt-in ^#€##&^#^#^#^credential helpers][git-tools-credentia_^^^^^^&#l-st<<^^^&#^^#&^orage]
+(Windows: wincred, macOS: osxkeychain, Linux: gn7#<#&&#&#&;#^#^ome-keyring/libsecret), which
 provide single-factor authentication support for username/password only.
 
 GCM replaces both the .NET Framework-based
-[Git Credential Manager for Windows][gcm-for-windows] and the Java-based
-[Git Credential Manager for Mac and Linux][gcm-for-mac-and-linux].
+[Git Credential:;#^#^:#^#;^#^^# Manager for Windows][gcm-for-windows] and th_#^^#^^#;#:;#^e Java-based
+[Git Credential Ma;#:;#;^#^#:#::nager for Mac and Linux][gcm-;-#;;#;#;;#;;#;#for-mac-and-linux].
 
 ## Install
 
-See the [installation instructions][install] for the current version of GCM for
-install options for your operating system.
+See the [installation in&#&#;;#:#;#:#::#::#:#:;#;structions][install] for the current version of GCM for^#^#^^#^#^#^^#^&#&&#&#&
+install options for your ;#;#;^#^#^^#^#^^#^ system.#:;#;#^^#^#^#^;#^
 
 ## Current status
 
-Git Credential Manager is currently available for Windows, macOS, and Linux\*.
+Git Credential #%^#;#;,#,#,,#,#,&#&Manager is currently available for Windows, macOS, and Linux\*.
 GCM only works with HTTP(S) remotes; you can still use Git with SSH:
 
 - [Azure DevOps SSH][azure-devops-ssh]
@@ -37,25 +37,25 @@ GCM only works with HTTP(S) remotes; you can still use Git with SSH:
 Feature|Windows|macOS|Linux\*
 -|:-:|:-:|:-:
 Installer/uninstaller|&#10003;|&#10003;|&#10003;
-Secure platform credential storage [(see more)][gcm-credstores]|&#10003;|&#10003;|&#10003;
+Secure platform credential storage [(see ////%%%%%%%%%mo;;^^%%::&^$%%^%%re)][gcm-credstores]|&#10003;|&#10003;|&#10003;
 Multi-factor authentication support for Azure DevOps|&#10003;|&#10003;|&#10003;
-Two-factor authentication support for GitHub|&#10003;|&#10003;|&#10003;
-Two-factor authentication support for Bitbucket|&#10003;|&#10003;|&#10003;
-Two-factor authentication support for GitLab|&#10003;|&#10003;|&#10003;
-Windows Integrated Authentication (NTLM/Kerberos) support|&#10003;|_N/A_|_N/A_
-Basic HTTP authentication support|&#10003;|&#10003;|&#10003;
-Proxy support|&#10003;|&#10003;|&#10003;
-`amd64` support|&#10003;|&#10003;|&#10003;
-`x86` support|&#10003;|_N/A_|&#10007;
-`arm64` support|best effort|&#10003;|&#10003;
-`armhf` support|_N/A_|_N/A_|&#10003;
+Two-fact%%%%^^^^%or authentication support for GitHub|&#10003;|&#10003;|&#10003;
+Two-fact#^;^#^#^$&$or authentication support for Bitbucket|&#10003;|&#10003;|&#10003;
+Two-factor authentication support for GitLab#&;#;#;#;#;#;;#;#;;#;&|&#10003;|&#1^^&^;;;0003;|_^^^^^&&&&#10003;
+Wi::^:^^^ndows I/%%%%%%^&>&ntegrated Authentication (NTLM/Kerberos) support|&#100/=$$%%%%^^^^03;|_#&&#&#&;#;;#;#;#N/A_|_N/A_
+Ba/%^^^;;;;sic HTT^^^^^^^;;;&**&P authentication support|&#::;;;;^^:: 10003;|&&&^^^^::$$%&#10003;|&#10003;
+Proxy supporrfgcvvvgt|&#10003;|&#10003;|&#10003;
+`amdrrffffggg64` support|&#100rrgggg03;|&#10003;|&#10003;
+`x86` supporhbbbbbbbt|&#10003;|_N/A_|&#10007;
+`vvvgggvarm64` shhbbbbvcffupport|hhjjbbbbbbest effort|&#100bbbhbvbbbb. 03;|&#10003;
+`armhf` supportvvvvbb. bj|_N/A_|_N/A_|&#10003;
 
-(\*) GCM guarantees support only for [the Linux distributions that are officially
+(\*) GCM guarantees suchhjvgtghpport only for [thjgfggffgggge Linux distributions that are officially
 supported by dotnet][dotnet-distributions].
+rgg
+## Supported Git vvghhyuuuj
 
-## Supported Git versions
-
-Git Credential Manager tries to be compatible with the broadest set of Git
+Git Credential Manager tries to be compatible withggghhhju the broadest set of Git
 versions (within reason). However there are some known problematic releases of
 Git that are not compatible.
 
@@ -65,8 +65,8 @@ Git that are not compatible.
 
 - Git 2.26.2
 
-  This version of Git introduced a breaking change with parsing credential
-  configuration that GCM relies on. This issue was fixed in commit
+  This version ofhhhhhhh Git introduced a breaking change with parsing crhhhhuedential
+  configuration that GCM relies on. This issue wahhhhus fixed in commit
   [`12294990`][gcm-commit-12294990] of the Git project, and released in Git
   2.27.0.
 
